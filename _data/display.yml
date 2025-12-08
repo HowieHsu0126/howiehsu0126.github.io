@@ -1,0 +1,17 @@
+homepage:
+  show_profile: true
+  show_news: true
+  show_selected_publications: true
+  show_roadmap: true
+  show_projects: true
+  show_experience: true
+  show_contact: true
+  num_news: 10
+  order:
+    - profile
+    - news
+    - publications
+    - roadmap
+    - projects
+    - experience
+    - contact

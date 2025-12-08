@@ -1,0 +1,75 @@
+primary_name: "Haowei Xu"
+secondary_name: "徐皓玮"
+navbar_name: "Haowei Xu"
+
+positions:
+  - '<span class="no-break"><img src="assets/images/badges/PKU_red.png" alt="Peking University" class="inline-badge"/></span> Ph.D. Student, Institute of Medical Technology, Peking University'
+
+email: "haoweixu@stu.pku.edu.cn"
+alt_email: "hwxu@mail.nwpu.edu.cn"
+gscholar: npuGopEAAAAJ
+github: HowieHsu0126
+resume: assets/cv/Resume.pdf
+
+short_bio: >-
+  I am a Ph.D. student in the Medical Innovation Interdisciplinary Program at the Institute of Medical Technology, Peking University Health Science Center. My work centers on scientific machine learning to simulate, control, design, and discover neuronal cell microenvironments. I am especially interested in AI4Science, virtual cells, neural operators, and generative models.
+
+show_portrait: true
+portrait_url: assets/images/photos/photo.png
+portrait_caption: >-
+  A drifter in the jianghu chasing profits
+
+research_interests:
+  - AI4Science
+  - AI4PDE
+  - Generative Models
+
+education:
+- name: Peking University Health Science Center
+  logo: assets/images/badges/PKU_red.png
+  dept: Institute of Medical Technology
+  position: Ph.D. Candidate in Medical Imaging Technology
+  date: Sep. 2025 - Jun. 2028 
+- name: Northwestern Polytechnical University
+  logo: assets/images/badges/nwpu.jpg
+  dept: Institute of Optics and Intelligent Sensing
+  position: M.Eng. in Computer Science and Technology
+  date: Sep. 2022 - Mar. 2025
+- name: Northwest A&F University
+  logo: assets/images/badges/nwafu.png
+  dept: College of Information Engineering
+  position: B.Eng. in Information Management and Information Systems
+  date: Sep. 2018 - Jun. 2022
+
+experience:
+- name: National Institute of Health Data Science, Peking University
+  logo: assets/images/badges/PKU_red.png
+  dept: Prof. Guilan Kong’s Research Group
+  position: Research Assistant
+  date: Dec. 2023 - Dec. 2024
+
+awards:
+- name: 19th “Challenge Cup” Revealing Champion Special Competition — National First Prize
+  date: 2024
+- name: National Postgraduate Mathematical Modeling Competition — Second Prize
+  date: 2023
+- name: National Postgraduate Mathematical Modeling Competition — Second Prize
+  date: 2022
+- name: ICM/MCM Mathematical Contest in Modeling — International Finalist (Outstanding Winner Nomination)
+  date: 2021
+
+competitions:
+- name: JD Health Global Medical AI Innovation Competition — Top 5%
+  date: 2024
+- name: Harvard Medical School Harmful Brain Activity Classification — Silver Medal
+  date: 2024
+
+service:
+  - name: Reviewer, IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS)
+  - name: Reviewer, IEEE Transactions on Network Science and Engineering (IEEE T-NSE)
+  - name: Reviewer, International World Wide Web Conference (WWW)
+  - name: Reviewer, ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)
+  - name: Reviewer, International Joint Conference on Artificial Intelligence (IJCAI)
+
+footer_text: >-
+  Copyright © 2025 <a href="https://github.com/HowieHsu0126" target="_blank">Haowei Xu</a>. All Rights Reserved.
