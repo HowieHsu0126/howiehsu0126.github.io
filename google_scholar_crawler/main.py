@@ -1,10 +1,11 @@
-from scholarly import scholarly
-import jsonpickle
 import json
-from datetime import datetime
 import os
+from datetime import datetime
 
-author: dict = scholarly.search_author_id("5lNlpagAAAAJ")
+import jsonpickle
+from scholarly import scholarly
+
+author: dict = scholarly.search_author_id("npuGopEAAAAJ")
 scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
 name = author['name']
 author['updated'] = str(datetime.now())
