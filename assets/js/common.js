@@ -69,4 +69,61 @@ $(function () {
         
         $(this).html(html)
     })
+    
+    const loadGitHubRepos = () => {
+        const username = 'HowieHsu0126'
+        const reposContainer = $('#github-repos')
+        const starsContainer = $('#github-stars')
+        const totalStarsSpan = $('#total-stars')
+        
+        const fetchAllRepos = async (page = 1, allRepos = []) => {
+            const perPage = 100
+            const response = await fetch(`https://api.github.com/users/${username}/repos?sort=updated&per_page=${perPage}&page=${page}&type=all`)
+            
+            if (!response.ok) {
+                throw new Error('Failed to fetch repositories')
+            }
+            
+            const repos = await response.json()
+            allRepos = allRepos.concat(repos)
+            
+            if (repos.length === perPage) {
+                return fetchAllRepos(page + 1, allRepos)
+            }
+            
+            return allRepos
+        }
+        
+        const loadRepos = async () => {
+            const allRepos = await fetchAllRepos()
+            
+            allRepos.sort((a, b) => (b.stargazers_count || 0) - (a.stargazers_count || 0))
+            
+            const topRepos = allRepos.slice(0, 6)
+            let totalStars = 0
+            
+            allRepos.forEach(repo => {
+                totalStars += repo.stargazers_count || 0
+            })
+            
+            let html = ''
+            topRepos.forEach(repo => {
+                const desc = repo.description || 'No description'
+                html += `<li><a target="_blank" href="${repo.html_url}">${repo.name}</a> - ${desc}</li>`
+            })
+            
+            reposContainer.html(html)
+            
+            if (totalStars > 0) {
+                totalStarsSpan.text(totalStars)
+                starsContainer.show()
+            }
+        }
+        
+        loadRepos().catch(() => {
+            reposContainer.html('<li class="text-muted">Unable to load repositories</li>')
+        })
+    }
+    
+    loadGitHubRepos()
 })

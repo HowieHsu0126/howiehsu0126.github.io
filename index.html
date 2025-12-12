@@ -65,11 +65,14 @@ num_selected: 10
                     </div>
                     <hr/>
                     <div class="mt-2">
-                        <h6 class="mb-2">Repositories</h6>
-                        <ul class="mb-0">
-                            <li><a target="_blank" href="https://github.com/HowieHsu0126/RMS">RMS - paper fetcher for ArXiv/Google Scholar/PubMed</a></li>
-                            <li><a target="_blank" href="https://github.com/HowieHsu0126/AwesomeEHR">AwesomeEHR - PostgreSQL collections for MIMIC-IV/eICU-CRD</a></li>
-                            <li><a target="_blank" href="https://github.com/HowieHsu0126/AMIA">AMIA - Neural Granger causal discovery for ICU AKI</a></li>
+                        <h6 class="mb-2">
+                            Repositories 
+                            <span id="github-stars" class="badge badge-pill badge-secondary ml-2" style="display: none;">
+                                <i class="fas fa-star"></i> <span id="total-stars">0</span> stars
+                            </span>
+                        </h6>
+                        <ul class="mb-0" id="github-repos">
+                            <li class="text-muted"><i class="fas fa-spinner fa-spin"></i> Loading repositories...</li>
                         </ul>
                     </div>
                 </div>

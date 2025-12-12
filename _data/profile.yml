@@ -44,9 +44,10 @@ education:
 experience:
 - name: National Institute of Health Data Science, Peking University
   logo: assets/images/badges/PKU_red.png
-  dept: Prof. Guilan Kong’s Research Group
+  dept: Prof. Guilan Kong's Research Group
   position: Research Assistant
   date: Dec. 2023 - Dec. 2024
+  description: Main work focuses on physiological signal modeling based on eICU-CRD and MIMIC databases
 
 awards:
 - name: 19th “Challenge Cup” Revealing Champion Special Competition — National First Prize
