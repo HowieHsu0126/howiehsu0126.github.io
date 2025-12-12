@@ -179,3 +179,22 @@ img.lazy {
     height: auto;
 }
 
+.news-timeline .timeline-title .text-parentheses {
+    color: #6c757d;
+}
+
+.news-timeline .timeline-title .award-top5 {
+    color: #8b0000;
+    font-weight: 600;
+}
+
+.news-timeline .timeline-title .award-silver {
+    color: #c0c0c0;
+    font-weight: 600;
+}
+
+.news-timeline .timeline-title .award-gold {
+    color: #ffd700;
+    font-weight: 600;
+}
+

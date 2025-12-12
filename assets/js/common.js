@@ -29,4 +29,16 @@ $(function () {
     $(document).on('keyup', function(event) {
         (event.key === 'Escape') && closeLightbox()
     })
+    
+    $('.news-timeline .timeline-title').each(function() {
+        let html = $(this).html()
+        
+        html = html.replace(/\(([^)]+)\)/g, '<span class="text-parentheses">($1)</span>')
+        
+        html = html.replace(/Top 5%/g, '<span class="award-top5">Top 5%</span>')
+        html = html.replace(/Silver Medal/g, '<span class="award-silver">Silver Medal</span>')
+        html = html.replace(/National First Prize/g, '<span class="award-gold">National First Prize</span>')
+        
+        $(this).html(html)
+    })
 })
