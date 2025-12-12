@@ -12,7 +12,7 @@ github: HowieHsu0126
 resume: assets/cv/Resume.pdf
 
 short_bio: >-
-  I am a Ph.D. student in the Medical Innovation Interdisciplinary Program at the Institute of Medical Technology, Peking University Health Science Center. My work centers on scientific machine learning to simulate, control, design, and discover neuronal cell microenvironments. I am especially interested in AI4Science, virtual cells, neural operators, and generative models.
+  I am a Ph.D. student in the Medical Innovation Interdisciplinary Program at the Institute of Medical Technology, Peking University Health Science Center. My work centers on scientific machine learning to simulate, control, design, and discover neuronal cell microenvironments. I am especially interested in AI4Science, virtual cells, neural operators, and generative models. I am supervised by <a href="https://xiezhaoheng.github.io/" target="_blank">Prof. Zhaoheng Xie</a> (Principal Supervisor, algorithmic guidance) and <a href="https://imt.bjmu.edu.cn/szdw/yxjsdsdw/yxyxjsx%EF%BC%88zhylgcyjs%EF%BC%89/a720b1afe62243cba9b852ca7389d7fa.htm" target="_blank">Prof. Hongbin Han</a> (Co-Supervisor, funding and neuroscience guidance).
 
 show_portrait: true
 portrait_url: assets/images/photos/photo.png
