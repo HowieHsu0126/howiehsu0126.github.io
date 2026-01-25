@@ -73,6 +73,7 @@ service:
   - name: Reviewer, International World Wide Web Conference (WWW)
   - name: Reviewer, ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)
   - name: Reviewer, International Joint Conference on Artificial Intelligence (IJCAI)
+  - name: Reviewer, International Conference on Machine Learning (ICML)
 
 footer_text: >-
   Copyright © 2025 <a href="https://github.com/HowieHsu0126" target="_blank">Haowei Xu</a>. All Rights Reserved.
