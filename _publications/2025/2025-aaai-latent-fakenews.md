@@ -7,7 +7,7 @@ pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Co
 pub_date:       "2025"
 abstract: >-
   The model infers latent social structures that fuse multimodal signals, advancing fake news detection with structured reasoning across text, vision, and interaction cues.
-cover:          TODO
+cover:          assets/images/empty_300x200.png
 authors:
   - Mingxin Li
   - Yuchen Zhang

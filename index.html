@@ -2,7 +2,6 @@
 layout: default
 title : Homepage
 navbar_name: Home
-num_selected: 10
 ---
 <section id="profile">
     {% if site.data.display.homepage.show_profile %}
@@ -25,6 +24,7 @@ num_selected: 10
     {% 
         include widgets/publication_card.html 
         publications=pubs
+        limit=site.data.display.homepage.num_selected
         title='<i class="fas fa-star"></i> Selected Publications'
     %}
 </section>
