@@ -1,5 +1,5 @@
 ---
-title:          NeuronCtrl: Geometry-Aware Safe Closed-Loop Generative Control for Neuronal Microenvironment Dynamics
+title:          "NeuronCtrl: Geometry-Aware Safe Closed-Loop Generative Control for Neuronal Microenvironment Dynamics"
 date:           2026-05-11 00:00:00 +0800
 selected:       true
 pub:            International Conference on Machine Learning (ICML)
