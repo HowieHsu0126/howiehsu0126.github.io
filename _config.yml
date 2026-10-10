@@ -34,6 +34,10 @@ plugins:
 #   - vendor/ruby/
 
 # timezone: Asia/Shanghai
+timezone: Asia/Shanghai
+
+# Keep same-day / future-dated news visible (default future:false hides them)
+future: true
 
 collections:
   - publications
